@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/fonts/style.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,8 +15,18 @@
 <body>
     <header id="header">
         <nav class="container">
-            <a class="logo" href="#">Intelli<span id="ParteLogo">Sys</span>.</a>
-            <div class="menu">Menu</div>
+            <a class="logo" href="#">Intelli<span>Sys</span>.</a>
+            <div class="menu">
+                <ul class="grid">
+                    <li><a class="title" href="#home">Início</a></li>
+                    <li><a class="title" href="#about">Sobre</a></li>
+                    <li><a class="title" href="#services">Serviços</a></li>
+                    <li><a class="title" href="#testimonials">Depoimentos</a></li>
+                    <li><a class="title" href="#contact">Contato</a></li>
+                </ul>
+            </div>
+            <div class="toggle icon-menu"></div>
+            <div class="toggle icon-close"></div>
         </nav>
     </header>
 
@@ -26,19 +37,64 @@
                     <img src="https://images.unsplash.com/photo-1536104968055-4d61aa56f46a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="IntelliSys">
                 </div>
                 <div class="text">
-                    <h1>A Intellisys permite empresas de varejo criarem relacionamentos extraordinários com seus clientes.</h1>
+                    <h2 class="title">A Intellisys permite empresas de varejo criarem relacionamentos extraordinários com seus clientes.</h2>
                     <p>O CRM Intellisys é o único CRM do Brasil completamente focado no Varejo, são 15 anos de especialização no mercado.</p>
                     <a class="button" href="#">Entrar em contato</a>
                 </div>
             </div>
         </section>
 
-        <div class="divider1"></div>
+        <div class="divider-1"></div>
 
-        <section class="section">
-            <div class="container">Outra Section</div>
+        <section class="section" id="about">
+            <div class="container grid">
+                <div class="image">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="IntelliSys">
+                </div>
+                <div class="text">
+                    <h2 class="title">Sobre nós</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam quos quam accusantium dignissimos ipsum? Distinctio corrupti voluptatibus, sit quos nam ad accusamus dolore est, qui quis hic, voluptate numquam ipsum.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, ex quos? Quaerat id sed sequi corrupti quasi consectetur odit, voluptates voluptas nobis omnis hic saepe fuga quidem eaque? Laborum, repellendus.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ad nostrum quos officiis blanditiis adipisci quo, modi placeat dolor recusandae ex excepturi sit suscipit dolores in officia veniam, molestias odit?</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider-2"></div>
+
+        <section class="section" id="services">
+            <div class="container grid">
+                <header>
+                    <h2 class="title">Serviços</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur <strong>adipisicing</strong> elit. Excepturi hic obcaecati ab accusamus voluptate? Non reiciendis modi doloribus perspiciatis expedita quibusdam voluptates nemo tempora consequuntur. Ea eos explicabo
+                        ut repellendus!</p>
+                </header>
+                <div class="cards grid">
+                    <div class="card">
+                        <i class="icon-woman-hair"></i>
+                        <h3 class="title">Corporativo</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore obcaecati culpa ex sit nulla expedita, dicta tenetur recusandae iste. Asperiores neque quibusdam odio quam quod eum beatae dolore excepturi tempore!</p>
+                    </div>
+                    <div class="card">
+                        <i class="icon-trim"></i>
+                        <h3 class="title">Cliente Final</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni quia similique voluptas qui ipsa voluptatibus molestiae odit? Beatae ab, fugiat tempore animi cum, voluptate perspiciatis modi quo molestiae blanditiis in.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <i class="icon-cosmetic"></i>
+                        <h3 class="title">Complementares</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem quis harum officiis eos! Voluptas error reiciendis consequatur, pariatur earum sint quo excepturi eius non obcaecati perspiciatis, magnam eos! Sequi, fuga?
+                        </p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
+
+    <script src="main.js"></script>
 
 </body>
 
