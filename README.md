@@ -2,7 +2,7 @@
 
 ## Demonstração
 
-<img src="" alt="Exemplo 1">
+<img src="./assets/img/exemplo1.png" alt="Exemplo 1">
 
 ## 🚀 Tecnologias utilizadas
 
